@@ -217,7 +217,8 @@ html[lang="ar"] .hero h1 { font-family: "Aref Ruqaa", serif; font-size: clamp(3.
 .flourish span { width: 70px; height: 1px; background: currentColor; opacity: .55; }
 .flourish b { font-size: .66rem; }
 .hero-date { margin: 0; font-size: clamp(1rem, 2vw, 1.25rem); font-weight: 600; }
-.hero-time { margin: 2px 0 26px; color: var(--gold-light); }
+.hero-time { margin: 2px 0 4px; color: var(--gold-light); }
+.hero-location { max-width: 560px; margin: 0 auto 22px; color: var(--gold-light); font-size: clamp(.76rem, 1.5vw, .95rem); }
 .scroll-cue { position: absolute; inset-block-end: 24px; left: 50%; width: 30px; height: 45px; transform: translateX(-50%); border: 1px solid rgba(255,255,255,.5); border-radius: 20px; }
 .scroll-cue span { position: absolute; top: 8px; left: 50%; width: 4px; height: 7px; margin-left: -2px; border-radius: 50%; background: var(--white); animation: scrollCue 1.8s infinite; }
 @keyframes scrollCue { 0% { opacity: 0; transform: translateY(0); } 30% { opacity: 1; } 100% { opacity: 0; transform: translateY(18px); } }
